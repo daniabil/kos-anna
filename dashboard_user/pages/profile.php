@@ -43,7 +43,7 @@
             </div>
             <div class='mb-3'>
                 <label for='ktp' class='form-label'>Foto KTP/KTM</label><br>  
-                <img src='../dashboard_admin/assets/img/ktp/<?= $ktp ?>' alt='Foto KTP' width='200' class='img-thumbnail'><br><br>
+                <img src='../<?= $ktp ?>' alt='Foto KTP' width='200' class='img-thumbnail'><br><br>
                 <input type='file' name='ktp' id='ktp' class='form-control mb-2'>
             </div>
             <button  type='submit' class='btn btn-primary'>Simpan Perubahan</button>

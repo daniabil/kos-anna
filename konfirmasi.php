@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['konfirmasi'])) {
             $fileName = 'Bukti_ID' . $id_pemesanan . '.' . $ekstensi;
 
             // Path upload
-            $uploadPath = "dashboard_admin/assets/img/bukti/" . $fileName;
+            $uploadPath = "assets/apload/bukti/" . $fileName;
 
             // Upload file
             if (move_uploaded_file($_FILES['foto']['tmp_name'], $uploadPath)) {
